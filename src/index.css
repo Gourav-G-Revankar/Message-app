@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(230, 230, 230);
+  font-family: 'Arvo', serif;
+}
