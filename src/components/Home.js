@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/chat.png';
+import logo from '../images/logo.jpg';
 import { Link } from "react-router-dom";
 import '../App.css';
 

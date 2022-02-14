@@ -4,10 +4,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f1f1f1;
 }
 
 .mobile--container{
-  width: 350px;
+  width: 310px;
   height: 600px;
   margin: auto;
   display: flex;
@@ -15,11 +16,11 @@
   align-items: center;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 0 0 10px 10px #aaa;
+  box-shadow: 0 0 10px 10px #e6e6e6;
 }
 
 .mobile--homeicon{
-  width: 80px;
+  width: 100px;
 }
 
 /* Chat page */
