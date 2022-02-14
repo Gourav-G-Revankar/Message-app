@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 *{
   box-sizing: border-box;
@@ -6,5 +7,5 @@
 
 body{
   background-color: rgb(230, 230, 230);
-  font-family: 'Arvo', serif;
+  font-family: 'Roboto', sans-serif;
 }

@@ -26,18 +26,18 @@
 /* Chat page */
 
 .chat--container{
-  width: 350px;
+  width: 310px;
   height: 600px;
   margin: auto;
-  background-color: #00ccff;
+  background-color: #3d64ff;
   border-radius: 20px;
-  box-shadow: 0 0 10px 10px #aaa;
+  box-shadow: 0 0 10px 10px #e6e6e6;
   position: relative;
 }
 
 .chat--container__area{
   position: absolute;
-  width: 350px;
+  width: 310px;
   height: 520px;
   bottom: 0;
   background-color: #fff;
@@ -190,7 +190,7 @@
 .chatlist--container ul > li{
   flex: 0 0 auto;
   list-style: none;
-  background-color: #00ccff;
+  background-color: #3d64ff;
   color: white;
   padding: 10px;
   margin: 5px;
@@ -201,12 +201,12 @@
 /* Front Page */
 
 .front--container {
-  width: 350px;
+  width: 310px;
   height: 600px;
   margin: auto;
-  background-color: #00ccff;
+  background-color: #3d64ff;
   border-radius: 20px;
-  box-shadow: 0 0 10px 10px #aaa;
+  box-shadow: 0 0 10px 10px #e6e6e6;
   position: relative;
 }
 
@@ -333,5 +333,5 @@
 }
 
 .msg--navigateicon1{
-  color: #00ccff;
+  color: #3d64ff;
 }
