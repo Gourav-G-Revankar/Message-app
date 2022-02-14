@@ -2,7 +2,6 @@ import React from 'react'
 import '../App.css';
 import { FiUsers } from "react-icons/fi";
 import { BiWindows } from "react-icons/bi";
-import { FaUserCircle } from "react-icons/fa";
 import { BiDotsVertical } from "react-icons/bi";
 import { IoMdCall } from "react-icons/io";
 import { IoIosNavigate } from "react-icons/io";
@@ -14,6 +13,10 @@ import User2 from "../images/user2.jpg"
 import User3 from "../images/user3.jpg"
 import User4 from "../images/user4.jpg"
 import User5 from "../images/user5.jpg"
+import User6 from "../images/user6.jpg"
+import User7 from "../images/user7.jpg"
+import User8 from "../images/user8.jpg"
+
 const FrontPage = () => {
   return (
     <>
@@ -72,17 +75,71 @@ const FrontPage = () => {
             </div>
 
             <div className='front--msg__userinfo'>
+
               <Link to="/profile" style={{ textDecoration: 'none' }}>
                 <div className='msg--userinfo'>
-                  <div>
-                    <FaUserCircle className='msg--userinfo__icon' />
+                  <div className='msg--userinfo__block'>
+                    <img src={User5} alt="user-icon" className='msg--userinfo__icon' />
+                    <div>
+                      <h4>Media Soltani</h4>
+                      <p className='msg--userinfo__recentmsg'>hey bro.. What's up??</p>
+                    </div>
                   </div>
-                  <div>
-                    <h4>User</h4>
-                    <p>hey bro.. What's up??</p>
+                  <div className='msg--userinfo__notification'>
+                    <p>2M</p>
+                    <p className='msg--userinfo__notificationcontent'>3</p>
                   </div>
                 </div>
               </Link>
+
+              <Link to="/profile" style={{ textDecoration: 'none' }}>
+                <div className='msg--userinfo'>
+                  <div className='msg--userinfo__block'>
+                    <img src={User6} alt="user-icon" className='msg--userinfo__icon' />
+                    <div>
+                      <h4>Parinaz Gholami</h4>
+                      <p className='msg--userinfo__recentmsg'>Send voice messages</p>
+                    </div>
+                  </div>
+                  <div className='msg--userinfo__notification'>
+                    <p>15M</p>
+                    <p className='msg--userinfo__notificationcontent'>1</p>
+                  </div>
+                </div>
+              </Link>
+
+              <Link to="/profile" style={{ textDecoration: 'none' }}>
+                <div className='msg--userinfo'>
+                  <div className='msg--userinfo__block'>
+                    <img src={User7} alt="user-icon" className='msg--userinfo__icon' />
+                    <div>
+                      <h4>Designers</h4>
+                      <p className='msg--userinfo__recentmsg'>Yes, Sure</p>
+                    </div>
+                  </div>
+                  <div className='msg--userinfo__notification'>
+                    <p>2M</p>
+                    <p className='msg--userinfo__notificationcontent'>3</p>
+                  </div>
+                </div>
+              </Link>
+
+              <Link to="/profile" style={{ textDecoration: 'none' }}>
+                <div className='msg--userinfo'>
+                  <div className='msg--userinfo__block'>
+                    <img src={User8} alt="user-icon" className='msg--userinfo__icon' />
+                    <div>
+                      <h4>Sharzad Koohestani</h4>
+                      <p className='msg--userinfo__recentmsg'>send an attachment</p>
+                    </div>
+                  </div>
+                  <div className='msg--userinfo__notification'>
+                    <p>Yesterday</p>
+                    <p></p>
+                  </div>
+                </div>
+              </Link>
+
             </div>
 
             <div className='front--msg__navigate'>
