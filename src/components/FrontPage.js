@@ -8,7 +8,12 @@ import { IoMdCall } from "react-icons/io";
 import { IoIosNavigate } from "react-icons/io";
 import { BiMessageDetail } from "react-icons/bi";
 import { Link } from "react-router-dom";
-
+//user icon
+import User1 from "../images/user1.jpg"
+import User2 from "../images/user2.jpg"
+import User3 from "../images/user3.jpg"
+import User4 from "../images/user4.jpg"
+import User5 from "../images/user5.jpg"
 const FrontPage = () => {
   return (
     <>
@@ -32,8 +37,26 @@ const FrontPage = () => {
             </div>
             <Link to="/profile" style={{ textDecoration: 'none' }}>
               <div>
-                <FaUserCircle className='front--addicon2' />
-                <p>User</p>
+                <img className='front--addicon2' src={User1} alt="user-icon" />
+                <p>Shrvim</p>
+              </div>
+            </Link>
+            <Link to="/profile" style={{ textDecoration: 'none' }}>
+              <div>
+                <img className='front--addicon2' src={User2} alt="user-icon" />
+                <p>Maria</p>
+              </div>
+            </Link>
+            <Link to="/profile" style={{ textDecoration: 'none' }}>
+              <div>
+                <img className='front--addicon2' src={User3} alt="user-icon" />
+                <p>Amir</p>
+              </div>
+            </Link>
+            <Link to="/profile" style={{ textDecoration: 'none' }}>
+              <div>
+                <img className='front--addicon2' src={User4} alt="user-icon" />
+                <p>Paris</p>
               </div>
             </Link>
           </div>
